@@ -1,0 +1,57 @@
+SPACE INVADER – GAME 
+DESIGN DOCUMENTATION
+NAME : PALLI RITVIK
+ROLL NUMBER : 240150023
+TABLE OF CONTENTS : 
+1. Concept Brief
+2. Game Theme
+3. Mechanics & Features
+4. Player Interaction
+5. Energy system
+6. Development Details
+7. Summary
+1. Concept Brief
+A 2D top-down shooter game where the player controls a 
+cannon to destroy enemy planes while avoiding falling 
+bombs. The game speeds up with time, and players must 
+maintain their energy level while aiming for a high score.
+2. Game Theme
+Genre : Arcade/Action
+Language : C++
+Target Audience : Game development enthusiasts , arcade 
+fans.
+3. Mechanics & Features
+=> Planes fly from the left to right randomly drop bombs.
+=> The players’s cannon can move sideways and shoot 
+bullets upwards.
+=>Destroying planes earns points.
+=> A high score list is maintained.
+=> Bombs decrease the player’s energy on impact
+4. Player Interaction
+=> Move left : Left arrow.
+=> Move Right : Right Arrow.
+=> Shoot : Up Arrow or Spacebar
+=> The player enters their name at the beginning.
+5. Energy System
+=> The player has an energy bar(starting at 100%).
+=> Each time a bomb hits the player, energy decreases by 
+20%.
+=> When the energy reaches 0%, the game ends.
+=> The energy bar adds realism and smooth difficulty 
+scaling compared to fixed lives.
+6. Development Details
+=> Language : C++
+=> Graphics Library : SFML
+=> Architecture : Object -Oriented Programming 
+=> Key Classes : 
+1. Game : Handles the main loop, events, rendering .
+2. Player : Manages position, shooting, and energy
+3.Enemy : Handles plane movement and bomb 
+dropping .
+4.Bullet , Bomb : Collision and rendering logic.
+7. Summary
+The Space Shooter game blends action and strategy with 
+real – time energy management. Built using SFML and 
+C++, it’s perfect for learning core game development 
+concepts like event handling, object- oriented design, and 
+visual feedback systems
